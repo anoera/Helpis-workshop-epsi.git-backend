@@ -34,6 +34,8 @@ function initToneAnalyzer() {
 		serviceUrl: WATSON_URL,
 		headers: {
 			'X-Watson-Learning-Opt-Out': 'true',
+			'Accept-Language': 'fr-FR',
+			'Content-Language': 'fr-FR',
 		},
 	});
 }
