@@ -8,6 +8,8 @@ const toneAnalyzer = initToneAnalyzer();
 async function analyse(data) {
 	const toneParams = {
 		toneInput: { text: data },
+		version: '2017-09-21',
+		sentences: false,
 		contentType: 'application/json',
 	};
 
